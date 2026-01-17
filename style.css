@@ -1,0 +1,32 @@
+/* ===== БЛОЧНЫЕ ЭЛЕМЕНТЫ ===== */
+h1,
+p,
+div,
+section,
+article {
+    border: 2px solid black;
+    background-color: #d6ecff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* ===== СТРОЧНЫЕ ЭЛЕМЕНТЫ ===== */
+a,
+span,
+strong,
+em,
+label,
+small {
+    color: darkred;
+    border: 2px dashed red;
+    padding: 5px;
+    margin-right: 5px;
+
+    /* Проверка width и height */
+    width: 150px;
+    height: 40px;
+}
+
+img {
+    border: 3px solid green;
+}
